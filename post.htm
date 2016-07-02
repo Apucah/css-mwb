@@ -1,0 +1,341 @@
+<!--?xml version="1.0" encoding="UTF-8" ?-->
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>HTML Elements | Blog Name</title>
+    <meta name="HandheldFriendly" value="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS URL -->
+
+    <link rel="stylesheet" href="css/material-navy.css" type="text/css">
+
+    <!-- Meta Description, if any. DO NOT OVERRIDE -->
+
+    <meta name="description" content="Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Not Found links Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat">
+
+    <!-- Feeds -->
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://official.mywapblog.com.local/rss.xml">
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://official.mywapblog.com.local/atom.xml">
+
+
+    <script type="text/javascript" src="js/viper.js"></script>
+    <script type="text/javascript">
+      var animation, nav_menu_state = 0;
+      function init()
+      {
+	document.getElementById('nav-links').style.display = 'none';
+	document.getElementById('nav-links').style.height = '0px';
+
+	animation1 = Viper({
+	  object: document.getElementById('nav-links').style,
+	  property: 'height',
+	  from: '0px',
+	  to: '216px',
+	  start: function() {
+	    document.getElementById('nav-links').style.display = 'block';
+	  },
+	  finish: function() {
+	    document.getElementById('nav-links').style.height = '100%';
+	  }
+	});
+	animation2 = Viper({
+	  object: document.getElementById('nav-links').style,
+	  property: 'height',
+	  from: '210px',
+	  to: '0px',
+	  finish: function() {
+	    document.getElementById('nav-links').style.display = 'none';
+	  }
+	});
+      }
+      function nav_menu_click()
+      {
+	if (nav_menu_state == 0)
+	{
+	  nav_menu_state = 1;
+	  animation1.start();
+	}
+	else
+	{
+	  nav_menu_state = 0;
+	  animation2.start();
+	}
+      }
+    </script>
+
+
+</head>
+  <body onload="init();">
+    <div id="wrapper">
+      <!-- Header -->
+      <div id="header">
+
+
+	<div class="heading"><a href="http://official.mywapblog.com.local/" name="top">Blog Name</a></div>
+
+	<div class="description">Blog Description</div>
+
+	<div id="header-bottom">
+	  <div id="navigation">
+	    <div id="open-nav-icon" onclick="javascript: nav_menu_click()"><img src="files/plus.png"></div>
+	  </div>
+	  <div id="search-form">
+	    <form method="get" action="http://official.mywapblog.com.local/">
+	      <input id="search-text" name="search" type="text">
+	      <input id="search-submit" value="" type="submit">
+	    </form>
+	  </div>
+	  <div class="clear"></div>
+	  <div style="display: none; height: 0px;" id="nav-links">
+	    <ul>
+	      <li><a href="http://official.mywapblog.com.local/">Home</a></li>
+	      <li><a href="http://official.mywapblog.com.local/about.xhtml">About Me</a></li>
+	      <li><a href="http://official.mywapblog.com.local/rss.xml">RSS</a></li>
+	      <li><a href="#navigation-menu">Navigation</a></li>
+	    </ul>
+	  </div>
+	</div>
+      </div>
+<!-- Content -->
+<div id="content">
+  <div class="post-single">
+    <div class="post-container">
+      <div class="post-meta">
+	<h1 class="title">HTML Elements</h1>
+      </div>
+      <div class="post-content" style="display: block !important; visibility: visible !important;">
+	<!-- No ad fetched -->
+
+	<p><img src="files/7104075blog-image.jpg" alt="7104075blog-image.jpeg"></p>
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+<p><a href="http://official.mywapblog.com.local/notfound">Not Found links</a><br></p>
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada
+fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
+ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
+egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend
+leo.</p>
+<p><code>code tag</code></p>
+<pre>Preformatted text
+</pre>
+<blockquote>Blockquote text<br>
+Blockquote text 2<br>
+Blockquote text<br>
+Blockquote text 3<br>
+Blockquote text4<br>
+Blockquote text5<br>
+Blockquote text 7<br>
+Blockquote text<br>
+Blockquote text<br>
+Blockquote text<br>
+Blockquote text<br>
+Blockquote text<br>
+Blockquote text<br>
+Blockquote text<br></blockquote>
+<ul>
+<li>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi,
+euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</li>
+<li>Praesent dapibus, neque id cursus faucibus, tortor neque egestas
+augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui
+mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</li>
+<li>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec
+consectetuer ligula vulputate sem tristique cursus. Nam nulla quam,
+gravida non, commodo a, sodales sit amet, nisi.</li>
+<li>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</li>
+</ul>
+<ol>
+<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+<li>Aliquam tincidunt mauris eu risus.</li>
+<li>Vestibulum auctor dapibus neque.</li>
+</ol>
+	<!-- No ad fetched -->
+
+      </div>
+      <div class="post-meta2">
+	Posted by Arvind Gupta on 03:54 AM, 25-Jun-15
+
+	| <h2 class="categories">Under:
+
+	<a href="http://official.mywapblog.com.local/category/category-four/1.xhtml">Category Four</a>
+	,
+
+
+	<a href="http://official.mywapblog.com.local/category/category-one/1.xhtml">Category One</a>
+
+
+	</h2>
+
+      </div>
+
+      <div id="share-buttons">
+
+		<a href="http://m.facebook.com/sharer.php?u=http%3A%2F%2Fofficial.mywapblog.com.local%2Fhtml-elements.xhtml" rel="nofollow"><img style="width: 59px; height: 20px;" src="files/button-fshare.gif" alt="Share on Facebook"></a>
+		<a href="https://twitter.com/share?url=http%3A%2F%2Fofficial.mywapblog.com.local%2Fhtml-elements.xhtml" rel="nofollow"><img style="width: 59px; height: 20px;" src="files/button-tshare.gif" alt="Share on Twitter"></a>
+
+	  </div>
+
+
+      <div id="recent-posts-list">
+
+	<h4>Related Posts</h4>
+	<ol>
+
+	  <li><a href="http://official.mywapblog.com.local/small-thumbnail.xhtml">Large Picture</a></li>
+
+	  <li><a href="http://official.mywapblog.com.local/very-long-post-title-to-check-next-previ-2.xhtml">Very Long Post Title to Check Next Previous Links, Very Very Long More</a></li>
+
+	  <li><a href="http://official.mywapblog.com.local/thumbnail-post.xhtml">Thumbnail Post</a></li>
+
+	</ol>
+
+      </div>
+
+
+      <div id="next_previous">
+
+	<a class="previous" href="http://official.mywapblog.com.local/post-title-four.xhtml">« Previous Post</a>
+
+
+	<a class="next" href="http://official.mywapblog.com.local/mywapblog-com-android-app-launched.xhtml">Next Post »</a>
+
+	<div class="clear"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="comments">
+    <h3><a name="comments" class="no-link">Comments</a></h3>
+
+
+    <h4>1 responses to "HTML Elements"</h4>
+    <h5>Subscribe to comments feed: <a href="http://official.mywapblog.com.local/html-elements/rss.xml">RSS</a> / <a href="http://official.mywapblog.com.local/html-elements/atom.xml">Atom</a></h5>
+
+
+    <div class="comment">
+      <div class="comment-left-content">
+	<div class="date">
+	  25 <span>Mar</span>
+	</div>
+      </div>
+      <div class="comment-right-content">
+	<div class="comment-header">
+	  <h5 class="title"><a href="http://official.mywapblog.com.local/" rel="nofollow">Arvind Gupta</a></h5>
+	</div>
+	<div class="comment-content">
+	  Test comment
+	</div>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+
+    <div id="new-entry">
+
+      <h3><a name="new-comment-anchor" class="no-link">New Comment</a></h3>
+
+
+      <form id="comment_form" action="http://official.mywapblog.com.local/post_comment.php" method="post">Name:<br>
+	<input class="inp-text" name="title" value="Arvind Gupta" type="text"><br>Email:<br>
+		<input class="inp-text" name="email" value="a@e.com" type="text"><br>Comment:<br>
+	    <small>(Some BBCode tags are allowed)</small><br>
+	    <textarea class="inp-textarea" name="body"></textarea><input name="post_id" id="post_id" value="59996" type="hidden">
+	    <input name="redir" value="http://official.mywapblog.com.local/html-elements.xhtml" type="hidden">
+	    <input name="key" value="e44f47591677feeafae63d350edfe1f4" type="hidden">
+	    <input name="PHPSESSID" value="43444511c6f78fdaa5c79c1c05ad1bc4" type="hidden"><br>
+	    <input class="inp-btn" name="comment" id="comment" value="Post Comment" type="submit">
+	    </form>
+    </div>
+  </div>
+
+</div>
+</div>
+<div id="pagination-links">
+
+</div>
+<div id="bottom-content">
+  <!-- Navigation -->
+  <h3 class="first"><a name="navigation-menu" class="no-link">Navigation
+</a></h3>
+  <div id="navigation-menu">
+    <ul>
+      <!-- "Home" link is not a "page" -->
+
+      <li><a href="http://official.mywapblog.com.local/">Home</a></li>
+
+
+      <li><a href="http://official.mywapblog.com.local/about.xhtml">About Me</a>
+</li>
+
+      <li><a href="http://official.mywapblog.com.local/about.xhtml#guestbook">Guestbook</a>
+</li>
+
+      <li><a href="http://official.mywapblog.com.local/feedback.xhtml">Feedback</a>
+</li>
+
+      <li><a href="http://mywapblog.com.local/follow.php?action=confirm&amp;userid=28">Follow This Blog</a>
+</li>
+
+      <li><a href="http://official.mywapblog.com.local/about.xhtml#blogroll">Blogroll</a>
+</li>
+
+      <li>Feed: <a href="http://official.mywapblog.com.local/rss.xml">RSS</a> / <a href="http://official.mywapblog.com.local/atom.xml">Atom</a>
+</li>
+
+      <li>Comment Feed: <a href="http://official.mywapblog.com.local/comment/rss.xml">RSS</a> / <a href="http://official.mywapblog.com.local/comment/atom.xml">Atom</a>
+</li>
+
+      <li>Get a <a href="http://www.mywapblog.com/">Free Mobile Blog</a>
+</li>
+
+      <li class="link-top last"><a accesskey="*" href="#top">Back to top</a></li>
+    </ul>
+  </div>
+  <!-- Categories -->
+
+  <h3>Categories</h3>
+  <div id="category-bottom">
+    <ul>
+
+      <li><a href="http://official.mywapblog.com.local/category/category-four/1.xhtml">Category Four</a> (4)</li>
+
+      <li><a href="http://official.mywapblog.com.local/category/category-one/1.xhtml">Category One</a> (9)</li>
+
+      <li class="last"><a href="http://official.mywapblog.com.local/category/uncategorized/1.xhtml">Uncategorized</a> (53)</li>
+
+    </ul>
+  </div>
+
+  <!-- Blogroll -->
+
+  <h3>Blogroll</h3>
+  <div id="blogroll">
+    <ul>
+
+      <li><a href="http://www.mywapblog.com/">Blogroll One</a></li>
+
+      <li><a href="http://www.google.com/">Blogroll Two</a></li>
+
+      <li class="last"><a href="http://mywapbl0g.mobie.in/">Blogroll Three</a></li>
+
+    </ul>
+  </div>
+
+</div>
+
+<!-- Footer -->
+<div id="footer">
+
+  Visitor Counter : <span style="background: #333333; padding: 2px; border: 2px dashed #dddddd; color: #ffffff;">0109048</span><br>
+
+  © 2016 <a href="http://official.mywapblog.com.local/">Blog Name</a>.
+  <h6 id="powered-by">Powered by <a href="http://www.mywapblog.com/">MyWapBlog.com</a></h6>
+  <div id="additional-links"><a href="mailto:abuse@mywapblog.com?Subject=Report%20%5B28%5D&amp;Body=%5BDetails%20regarding%20the%20abuse%5D" rel="nofollow">Report Abuse</a></div>
+</div>
+<!-- Debug info. DO NOT REMOVE -->
+<!-- Page generated in: 1.66 secs -->
+<!-- Memory used: 2.02 MB --></body></html>
